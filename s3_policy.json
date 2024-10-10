@@ -1,0 +1,11 @@
+{
+    "Version": "2012-10-17",
+    "Id": "testingpolicy",
+    "Statement": [{
+      "Sid": "testingpolicy",
+      "Principal": "arn:aws:iam::820242933469:user/Rajesh",
+      "Effect": "Deny",
+      "Action": "s3:PutObject",
+      "Resource": "arn:aws:s3:::production-aitechslv-bucket/*"
+    }]
+    }
