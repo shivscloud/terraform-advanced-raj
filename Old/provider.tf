@@ -7,9 +7,7 @@ terraform {
   }
 }
 
-
-# Provider-1 for us-east-1 (USA)
+# Configure the AWS Provider
 provider "aws" {
-  region = "us-east-1"
-  profile = "default"
+  region = "ap-northeast-1"
 }
